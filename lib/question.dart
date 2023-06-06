@@ -2,7 +2,7 @@ class Question{
  late String questionText;
  late bool questionAnswer;
 
-  Question ({required String q,required a}){
+  Question (String s, bool bool, {required String q,required a}){
 
     questionText = q;
     questionAnswer= a;
